@@ -119,8 +119,8 @@ def main() -> None:
     脚本的主入口
     """
 
-    process("./source/zh", "./webp/zh")  # 处理中文卡图
-    process("./source/en", "./webp/en")  # 处理英文卡图
+    process("./source/zhCN", "./webp/zhCN")  # 处理中文卡图
+    process("./source/enUS", "./webp/enUS")  # 处理英文卡图
 
 
 if __name__ == "__main__":
