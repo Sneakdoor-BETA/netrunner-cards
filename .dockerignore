@@ -1,0 +1,6 @@
+# Ignore everything by default to keep build context small.
+**
+
+# Keep only the files needed for this static image server build.
+!webp/**
+!Dockerfile

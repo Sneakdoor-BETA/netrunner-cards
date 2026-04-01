@@ -1,5 +1,5 @@
-FROM nginx:alpine
+FROM nginx:1.27-alpine
 
-LABEL authors="Eric03742"
+LABEL org.opencontainers.image.authors="Eric03742"
 
 COPY webp/ /usr/share/nginx/html/

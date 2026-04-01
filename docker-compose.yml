@@ -2,7 +2,7 @@ services:
   netrunner-cards:
     container_name: netrunner-cards
     image: eric03742/netrunner-cards:latest
-    restart: always
+    restart: unless-stopped
     ports:
       - 6789:80
     networks:
